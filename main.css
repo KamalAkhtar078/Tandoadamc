@@ -1,0 +1,211 @@
+.container{
+    width: 85%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(main.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+nav ul{
+        flex: 1;
+        text-align: right;
+        padding-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    transition: width 0.3s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+.kbc{
+    padding: 1px;
+    margin-left: 8%;
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.xyz{
+    color: white;
+    position: absolute;
+    bottom: 8%;
+}
+.about{
+    width: 43%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(about.jpg);
+    background-size:cover;
+    background-position: right;
+    padding: 0 8%;
+    position:absolute;
+}
+.ty{
+    margin-left: 60%;
+    background-color: yellow;
+}
+.a{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+}
+.b{
+    font-weight: lighter;
+    font-size: 23.75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abc{
+    width: 43%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(water.jpg);
+    background-size:cover;
+    background-position: right;
+    padding: 0 8%;
+    position:absolute;
+}
+.tz{
+    margin-left: 60%;
+    background-color: green;
+}
+.c{
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+}
+.d{
+    font-weight: lighter;
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.water{
+    font-size: 40px;
+    text-align: center;
+    color:red;
+    margin-top: 15%;
+}
+.EA{
+    width: 43%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(ea.jpg);
+    background-size:cover;
+    background-position: right;
+    padding: 0 8%;
+    position:absolute;
+}
+.tw{
+    margin-left: 60%;
+    background-color: blueviolet;
+}
+.e{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%; 
+}
+.f{
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cousine{
+    width: 43%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(cousine.jpg);
+    background-size:cover;
+    background-position: right;
+    padding: 0 8%;
+    position:absolute;
+}
+.qr{
+    margin-left: 60%;
+    background-color: blue;
+}
+.z{
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;  
+}
+.y{
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.edu{
+    width: 43%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(edu.jpg);
+    background-size:cover;
+    background-position: right;
+    padding: 0 8%;
+    position:absolute;
+}
+.tp{
+    margin-left: 60%;
+    background-color: palevioletred;
+}
+.g{
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;   
+}
+.h{
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.papu{
+    width: 43%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(jun.jpg);
+    background-size:cover;
+    background-position: right;
+    padding: 0 8%;
+    position:absolute;
+}
+.tu{
+    margin-left: 60%;
+    background-color: palegreen;
+}
+.i{
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;    
+}
+.j{
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;  
+}
